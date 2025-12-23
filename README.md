@@ -15,8 +15,8 @@ The collections system has been replaced by bundles. To use design intelligence 
 amplifier run --bundle git+https://github.com/microsoft/amplifier-bundle-design-intelligence@main \
   "Design a notification toast that feels warm and inviting"
 
-# Option 2: Add bundle to your registry and use by name
-amplifier bundle add design-intelligence git+https://github.com/microsoft/amplifier-bundle-design-intelligence@main
+# Option 2: Add bundle to your registry (name auto-derived from metadata)
+amplifier bundle add git+https://github.com/microsoft/amplifier-bundle-design-intelligence@main
 amplifier bundle use design-intelligence
 amplifier run "Design a notification toast"
 
